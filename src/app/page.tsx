@@ -1,5 +1,4 @@
-import Image from "next/image";
-import influxx from "@/app/assets/influxx.png";
+import Script from "next/script";
 
 export default function Home() {
   return (
@@ -22,7 +21,7 @@ export default function Home() {
             data-form-id="vDQf5YR9i7ajbhskvc9N"
             title="Form 0"
           ></iframe>
-          <script src="https://link.msgsndr.com/js/form_embed.js"></script>
+          <Script src="https://link.msgsndr.com/js/form_embed.js"/>
         </div>
     </main>
   );
